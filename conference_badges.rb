@@ -5,10 +5,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  attendees.each do |a|
-    list.push("Hello, my name is #{a}.")
+  counter = 0
+  while counter < attendees.size
+    attendees[0] = "Hello, my name is #{attendees[0]}."
+    counter += 1
   end
-  list
 end
 
 def assign_rooms(arr)
