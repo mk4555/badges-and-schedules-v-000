@@ -21,7 +21,7 @@ def assign_rooms(arr)
   rooms
 end
 
-def printer(attendees)
+def printer()
   attendees do |attendee|
     puts ("#{attendee}.")
   end
