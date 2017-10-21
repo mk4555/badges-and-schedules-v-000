@@ -22,5 +22,12 @@ def assign_rooms(arr)
 end
 
 def printer(attendees)
-
+  list1 = batch_badge_creator(attendees)
+  list1.each do |a|
+    puts "#{a}"
+  end
+  list2 = assign_rooms(attendees)
+  list2.each do |a|
+    puts "#{a}"
+  end
 end
