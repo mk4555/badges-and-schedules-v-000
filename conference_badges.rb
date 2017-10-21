@@ -23,6 +23,6 @@ end
 
 def printer(attendees)
   attendees.each do |attendee|
-    puts ("ho")
+    puts ("#{attendee}")
   end
 end
