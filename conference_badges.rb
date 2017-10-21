@@ -23,7 +23,7 @@ end
 
 def printer(attendees)
   attendees do |badge|
-    puts ("#Hello, my name is {attendee}.")
+    puts ("Hello, my name is {attendee}.")
   end
 
   attendees do |room|
