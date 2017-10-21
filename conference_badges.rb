@@ -22,11 +22,11 @@ def assign_rooms(arr)
 end
 
 def printer(attendees)
-  batch_badge_creator do |badge|
-    puts ("#{attendee}.")
+  attendees do |badge|
+    puts ("#Hello, my name is {attendee}.")
   end
 
-  assign_rooms do |room|
-    puts ("#{room}")
+  attendees do |room|
+    puts ("Hello, #{person}! You'll be assigned to room #{counter}!")
   end
 end
