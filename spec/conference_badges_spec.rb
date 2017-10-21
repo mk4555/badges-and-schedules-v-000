@@ -34,7 +34,7 @@ describe 'conference_badges' do
 # http://en.wikibooks.org/wiki/Ruby_Programming/Here_documents
 
   let(:badges_and_room_assignments) {<<-TEXT
-Hello, my name is Edsger.
+Hello, my name is Edger.
 Hello, my name is Ada.
 Hello, my name is Charles.
 Hello, my name is Alan.
