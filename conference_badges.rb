@@ -12,7 +12,7 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(arr)
-  counter = 1
+  counte = 1
   arr.each do |person|
     "Hello, #{person}! You'll be assigned to room #{counter}"
     counter += 1
