@@ -18,4 +18,5 @@ def assign_rooms(arr)
     rooms.push("Hello, #{person}! You'll be assigned to room #{counter}")
     counter += 1
   end
+  rooms
 end
