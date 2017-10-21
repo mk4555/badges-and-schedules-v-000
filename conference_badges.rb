@@ -21,7 +21,7 @@ def assign_rooms(arr)
   rooms
 end
 
-def printer()
+def printer(attendees)
   batch_badge_creator do |attendee|
     puts ("#{attendee}.")
   end
