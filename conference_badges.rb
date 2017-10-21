@@ -14,13 +14,12 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(arr)
-  counter = 1
-  rooms = []
-  arr.each do |person|
-    rooms.push("Hello, #{person}! You'll be assigned to room #{counter}!")
+  counter = 0
+  while counter < attendees.size
+    attendees[counter] = "Hello, #{person}! You'll be assigned to room #{counter}!"
     counter += 1
   end
-  rooms
+  attendees
 end
 
 def printer(attendees)
