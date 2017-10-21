@@ -16,6 +16,7 @@ def assign_rooms(arr)
   counter = 1
   arr.each do |a|
     list.push("Hello, #{a}! You'll be assigned to room #{counter}!")
+    counter += 1
   end
   list
 end
