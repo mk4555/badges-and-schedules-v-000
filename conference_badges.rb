@@ -23,11 +23,7 @@ def assign_rooms(arr)
 end
 
 def printer(attendees)
-  attendees do |badge|
-    puts ("Hello, my name is {attendee}.")
-  end
-
-  attendees do |room|
-    puts ("Hello, #{person}! You'll be assigned to room #{counter}!")
+  attendees.each do |a|
+    puts "#{a}"
   end
 end
